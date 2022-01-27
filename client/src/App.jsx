@@ -1,12 +1,13 @@
 
+import React from "react"
+import HomeHOC from "./HOC/Home.HOC"
+import Temp from "./components/temp"
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </div>
+    <>
+    <HomeHOC path="/" exact component={Temp}/>
+    </>
   );
 }
 
