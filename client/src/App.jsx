@@ -1,12 +1,13 @@
 
 import React from "react"
-import HomeHOC from "./HOC/Home.HOC"
-import Temp from "./components/temp"
+import Temp from "./Temp"
+import Navbar from "./Navbar"
 
 function App() {
   return (
     <>
-    <HomeHOC path="/" exact component={Temp}/>
+    <Temp/>
+    <Navbar/>
     </>
   );
 }
