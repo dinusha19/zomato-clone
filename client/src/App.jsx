@@ -1,7 +1,7 @@
 
 import React from "react"
-import Temp from "./Temp"
-import Navbar from "./Navbar"
+import Temp from "./componets/Temp"
+import Navbar from "./componets/Navbar"
 
 function App() {
   return (
